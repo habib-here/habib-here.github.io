@@ -1,11 +1,65 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>
-            Habib Ahmed
-        </title>
-    </head>
-    <body>
-        I am habib
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .profile {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        .profile:last-child {
+            border-bottom: none;
+        }
+        .profile h2 {
+            margin-top: 0;
+        }
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Profile Showcase</h1>
+
+        <!-- Your Profile -->
+        <div class="profile">
+            <h2>Your Name</h2>
+            <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin/" target="_blank">View LinkedIn Profile</a></p>
+        </div>
+
+        <!-- Friend's Profile -->
+        <div class="profile">
+            <h2>Friend's Name</h2>
+            <p>Email: <a href="mailto:friend.email@example.com">friend.email@example.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/friend-linkedin/" target="_blank">View LinkedIn Profile</a></p>
+        </div>
+
+    </div>
+</body>
 </html>
